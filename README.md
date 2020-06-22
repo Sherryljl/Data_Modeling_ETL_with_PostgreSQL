@@ -1,4 +1,4 @@
-# Music streaming App Data Modeling
+# Music Streaming App Data Modeling
 ## Date:6/19/2020
 
 ## Introduction
@@ -6,7 +6,7 @@
 
 ## Database schema
 ![ERD](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/38715/1592649090/Song_ERD.png)
-### database intro
+### Database intro
 database name: sparkifydb   
 There are five tables in the sparkifydb database.
 
