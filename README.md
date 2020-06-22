@@ -5,7 +5,7 @@
 **Sparkify** is a startup which provides music streaming service. Their user actitvity data and songs information are origianlly stored in JSON files, making it hard to peform analysis on top. This project is to  build a PostgreSQL database and use ETL pipelines to populate data into database. In that case, queries can be easily performed by analytical team. They are mainly insterested in what songs users are listening to.
 
 ## Database schema
-![ERD](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/38715/1592649090/Song_ERD.png)
+![ERD](./ERD.png)
 ### Database intro
 database name: sparkifydb   
 There are five tables in the sparkifydb database.
