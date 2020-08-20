@@ -27,15 +27,17 @@ start_time, hour, day, week, month, year, weekday
 Use etl.py file to load data from JSON files into each table in sparkify database.
 
 ## Files included
-- data folder: contains orinigal song and log data JSON files.
-- create_tables.py: used to create and database and tables.
-- etl.py: used to finish ETL process to load data into database tables
+- data.tar.gz: zipped data file which contains orinigal song and log data in JSON format.
+- create_tables.py: used to create database and tables.
+- etl.py: used to finish ETL process to load data into database tables.
 - sql_queries.py: contains all drop, create, and insert queries string.
-- test.ipynb: used to test if data is succuessfully loaded into database.
+- database-test.ipynb: used to test if data is succuessfully loaded into database by querying the tables.
 
 
 ## How to use?
-1. put data folder, .py and .pynb files under a same path.
-2. run the create_tables.py to create database and all tables.
-3. run the etl.py to finish the ETL process to load data.
-4. user test.ipynb to run a few queries to check if data is successfully loaded into database.
+1. Unzip data into your local file system.
+2. Place all .py and .pynb files under a same path.
+3. Change the file path in etl.py based on your data location
+4. Run the create_tables.py to create database and all tables.
+5. Run the etl.py to finish the ETL process to load data.
+6. Use database-test.ipynb to run a few queries to check if data is successfully loaded into database.
